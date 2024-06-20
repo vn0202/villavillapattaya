@@ -21,9 +21,9 @@ a:hover { color:#f7931e; text-decoration:underline; }
 #sound { cursor:pointer; }
 
 /* layout */
-#wrapper { margin:0 auto; width:950px; }
-#container {  }
-#main { float:left; width:630px; background:#fff url(/assets/images/content-bg.jpg) no-repeat right bottom; height:630px; }
+/*#wrapper { margin:0 auto; width:950px; }*/
+#container { display: flex }
+#main { flex: 1 }
 #sidebar { float:left; background:#b4a0a7; width:320px; height:630px; position:relative; }
 .location { position:relative; text-align:center; }
 
@@ -61,7 +61,7 @@ a:hover { color:#f7931e; text-decoration:underline; }
 .facebook a { color:#3d538d; }
 .footer-sidebar { float:left; background-color:#8b6b76; width:320px; height:25px; padding-top:3px; }
 .footer-sidebar object { margin-left:5px; }
-.copyright { float:left; background-color:#534f51; width:630px; text-align:center; height:25px; line-height:25px; color:#a49fa1; font-size:0.85em; }
+.copyright { background-color:#534f51; text-align:center; height:25px; line-height:25px; color:#a49fa1; font-size:0.85em; }
 
 .room-desc, .room-detail, .home-detail, .facility-detail { margin:30px 20px; width:275px; }
 .room-desc { border-bottom:1px dotted #8b6b76; padding-bottom:20px; }
@@ -112,23 +112,46 @@ p.contact-info a { color:#4b4b4b; text-decoration:underline; }
 .remark strong { color:#551e1f; }
 
 
-/*
-     FILE ARCHIVED ON 21:07:48 Jul 30, 2018 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 06:45:16 May 07, 2024.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+#wrapper {
+    margin: 0 auto;
+}
+#header{
+    display: flex;
+    align-items: center;
+}
+#header .menus{
+    display: flex;
+}
+#header .menus .menu-items a{
+    color: black;
+    display: block;
+    padding: 6px 12px;
+    border-right: 1px solid #cccccc;
+}
+#header .menus .menu-items a:hover{
+    color: #f7931e;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown:hover > .dropdown-content{
+    display: block;
+}
+.dropdown-content{
+    display: none;
+    min-width: 150px;
+    position: absolute;
+    background: white;
+    top: calc(100%);
+    z-index: 100;
+    list-style: none;
+    box-shadow: 0 5px 6px #cccccc;
+}
 
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 0.784
-  exclusion.robots: 0.207
-  exclusion.robots.policy: 0.197
-  cdx.remote: 0.069
-  esindex: 0.012
-  LoadShardBlock: 49.877 (3)
-  PetaboxLoader3.datanode: 59.914 (4)
-  load_resource: 95.501
-  PetaboxLoader3.resolve: 62.784
-*/
+@media screen and (min-width: 1024px) {
+    #wrapper {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+}
