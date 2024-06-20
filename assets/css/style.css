@@ -23,24 +23,24 @@ a:hover { color:#f7931e; text-decoration:underline; }
 /* layout */
 #wrapper { margin:0 auto; width:950px; }
 #container {  }
-#main { float:left; width:630px; background:#fff url(/images/content-bg.jpg) no-repeat right bottom; height:630px; }
+#main { float:left; width:630px; background:#fff url(/assets/images/content-bg.jpg) no-repeat right bottom; height:630px; }
 #sidebar { float:left; background:#b4a0a7; width:320px; height:630px; position:relative; }
 .location { position:relative; text-align:center; }
 
 .site-logo { float:left; }
-.site-logo a { display:block; background: transparent url(/images/site-logo.jpg) no-repeat left top; width:320px; height:86px; text-indent:-9999px; }
-.site-menu { float:left; background:transparent url(/images/submenu-bg.jpg) repeat-x left 62px; width:630px; height:86px; }
+.site-logo a { display:block; background: transparent url(/assets/images/site-logo.jpg) no-repeat left top; width:320px; height:86px; text-indent:-9999px; }
+.site-menu { float:left; background:transparent url(/assets/images/submenu-bg.jpg) repeat-x left 62px; width:630px; height:86px; }
 .site-menu li { float:left; }
 .site-menu li a { text-indent:-9999px; }
 
-.home-menu { display:block; background:transparent url(/images/sprite-home-menu.jpg) no-repeat left top; height:66px; width:72px; }
-.room-menu { display:block; background:transparent url(/images/sprite-room-menu.jpg) no-repeat left top; height:66px; width:69px; }
-.villa-menu { display:block; background:transparent url(/images/sprite-villa-menu.jpg) no-repeat left top; height:66px; width:61px; }
-.facility-menu { display:block; background:transparent url(/images/sprite-facility-menu.jpg) no-repeat left top; height:66px; width:82px; }
-.reservation-menu { display:block; background:transparent url(/images/sprite-reservation-menu.jpg) no-repeat left top; height:66px; width:96px; }
-.location-menu { display:block; background:transparent url(/images/sprite-location-menu.jpg) no-repeat left top; height:66px; width:81px; }
-.gallery-menu { display:block; background:transparent url(/images/sprite-gallery-menu.jpg) no-repeat left top; height:66px; width:72px; }
-.contactus-menu { display:block; background:transparent url(/images/sprite-contactus-menu.jpg) no-repeat left top; height:66px; width:97px; }
+.home-menu { display:block; background:transparent url(/assets/images/sprite-home-menu.jpg) no-repeat left top; height:66px; width:72px; }
+.room-menu { display:block; background:transparent url(/assets/images/sprite-room-menu.jpg) no-repeat left top; height:66px; width:69px; }
+.villa-menu { display:block; background:transparent url(/assets/images/sprite-villa-menu.jpg) no-repeat left top; height:66px; width:61px; }
+.facility-menu { display:block; background:transparent url(/assets/images/sprite-facility-menu.jpg) no-repeat left top; height:66px; width:82px; }
+.reservation-menu { display:block; background:transparent url(/assets/images/sprite-reservation-menu.jpg) no-repeat left top; height:66px; width:96px; }
+.location-menu { display:block; background:transparent url(/assets/images/sprite-location-menu.jpg) no-repeat left top; height:66px; width:81px; }
+.gallery-menu { display:block; background:transparent url(/assets/images/sprite-gallery-menu.jpg) no-repeat left top; height:66px; width:72px; }
+.contactus-menu { display:block; background:transparent url(/assets/images/sprite-contactus-menu.jpg) no-repeat left top; height:66px; width:97px; }
 
 .site-menu li a:hover, .site-menu .overchild { /*background-position:left -66px;*/ background-position:left -132px; }
 .site-menu li.active a { background-position:left -132px; }
@@ -100,7 +100,7 @@ p.contact-info a { color:#4b4b4b; text-decoration:underline; }
 .img-box { float:left; margin:30px 0 20px 10px; }
 .gallery-list { height:390px; margin:30px 0 20px 10px; }
 
-#room_rate { background:transparent url(/images/tr_bg.jpg) repeat 5px 0px; margin:0 0 20px 20px; }
+#room_rate { background:transparent url(/assets/images/tr_bg.jpg) repeat 5px 0px; margin:0 0 20px 20px; }
 #room_rate th { background-color:#c2c2c2; color:#fff; font-weight:bold; border:1px solid #fff; padding:5px; text-align:center; border-top-width:30px; border-bottom-width:15px; }
 #room_rate tr {  }
 .td_room_title { width:394px; margin:2px 5px; }
